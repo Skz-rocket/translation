@@ -1,0 +1,20 @@
+スタートするために　→　Kvデザイン言語¶(9割完成）
+Kivyはデザイン言語、特にGUIデザインに簡単に実装することができる。
+この言語はアプリケーションのロジックと切り離して、
+シンプルにインターフェースのデザインを作成することができます。
+
+
+例えば、
+
+
+上記のコードを
+<LoginScreen>:  # every class in your app can be represented by a rule like
+                # this in the kv file
+    GridLayout: # this is how you add your widget/layout to the parent
+                # (note the indentation).
+        rows: 2 # this how you set each property of your widget/layout
+
+
+KV言語では、あたなのGUIをシンプルに作ることができます。理解を深めるためには,kv言語のドキュメンテーションを参照ください
+
+
